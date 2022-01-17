@@ -44,7 +44,7 @@ button {
     display: flex;
     background-color: green;
     font-size: large;
-    font-family: fantasy;
+    font-family: monospace;
     color: whitesmoke;
     border-radius: 4px;
 }

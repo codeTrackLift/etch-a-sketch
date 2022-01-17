@@ -1,0 +1,85 @@
+html {
+    background-color: darkslategray;
+    color: white;
+    font-family: fantasy, monospace;
+    box-sizing: border-box;
+    --grid-cols: 1;
+    --grid-rows: 1;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#wrapper {
+    display: flex;
+    gap: 5rem;
+}
+#left {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 10px solid maroon;
+    border-radius: 10px;
+}
+
+#container {
+    margin-top: 25px;
+    display: inline-grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    border-radius: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+.square {
+    background-color: darkgray;
+}
+
+button {
+    display: flex;
+    background-color: green;
+    font-size: large;
+    font-family: fantasy;
+    color: whitesmoke;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: lime;
+    color: black;
+}
+
+.buttons {
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    gap: 8rem;
+}
+
+/* arrow draw section */
+canvas {
+    border-radius: 10px;
+    /* Canvas size 0.5x specified in HTML to reduce pixelation */
+    width: 300px;
+    height: 300px;
+    background: darkgray;
+}
+
+#right {
+    border-radius: 10px;
+    text-align: center;
+    border: 10px solid blue;
+    display: flex;
+    flex-direction: column;
+}
+
+#right>.btns {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1.25rem;
+}

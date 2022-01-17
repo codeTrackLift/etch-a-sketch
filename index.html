@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-A-Sketch</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" defer></script>
+</head>
+
+<body>
+    <div id="text">
+        <h1>Etch-A-Sketch Project</h1>
+    </div>
+
+    <div id="wrapper">
+        <div id="left">
+            <h3>Draw with Mouse Cursor</h3>
+            <div class="buttons">
+                <button id="btnClear">Clear</button>
+                <button id="btnResize" onclick="resizeGrid()">Pixel Size</button>
+            </div>
+            <div id="container"></div>
+        </div>
+        <div id="right">
+            <h3>Draw with Arrow Buttons</h3>
+            <div class="btns">
+                <button class="clrRight">Clear</button>
+            </div>
+            <canvas width="600" height="600" id="sketch"></canvas>
+        </div>
+    </div>
+</body>
+
+
+</html>

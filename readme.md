@@ -6,6 +6,7 @@
 <ol>
     <li>Languages: HTML, CSS, JavaScript</li>
     <li>CSS Grid</li>
+    <li>HTML Canvas</li>
     <li>DOM Manipulation</li>
     <li>Key Press and Event Listeners</li>
 </ol>
@@ -25,6 +26,7 @@ This is my second JavaScript project and was completed as part of The Odin Proje
 >**Custom Features**:
 <ol>
     <li>Included a key input version</li>
+    <li>Key input draws on an HTML canvas element</li>
 </ol>
 
 ## How to Run
